@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: Orbitron;
+    background-color: #1b2c30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-area {
+    display: flex;
+    width: 100%;
+}
+
+.input-area > div {
+    flex: 1;
+    margin: 5px;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    height: 150px;
+    padding: 10px;
+    border: 4px solid #74d1fc;
+    border-style: groove;
+    resize: vertical;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    font-family: Orbitron;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#openCodeFilesButton,
+#previewButton {
+    padding: 10px 20px;
+    background-color: #03395c;
+    color: white;
+    border-radius: 10px;
+    border: groove;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #74d1fc;
+    margin-bottom: 10px;
+}
+
+#previewArea {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    color: antiquewhite;
+    border-style: groove;
+    border: 2px solid #74d1fc;
+    overflow-y: auto;
+}
